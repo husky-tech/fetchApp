@@ -1,0 +1,17 @@
+
+
+function basicFUnc(a) {
+  console.log(a);
+}
+
+let normalFunc = function(b) {
+  console.log(b);
+}
+
+let arrowFunc = (c) => {
+  console.log(c);
+}
+
+basicFUnc('ベーシックです');
+normalFunc('ノーマルです');
+arrowFunc('アローファンクです');
